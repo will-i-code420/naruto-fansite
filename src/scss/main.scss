@@ -7,8 +7,8 @@
 @import './vendor/font-awesome';
 
 // App Styling
-
 @import './reset';
-@import './app/nav';
+@import './app/pages/character/character';
+@import './app/components/navbar/nav';
 @import './app/jumbotron';
-@import './app/contact-cards';
+@import './app/components/cards/character-cards';

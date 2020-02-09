@@ -35,8 +35,12 @@ module.exports = {
       filename: 'about.html'
     }),
     new HtmlWebpackPlugin({
-      template: path.resolve('./src/contact.html'),
-      filename: 'contact.html'
+      template: path.resolve('./src/character.html'),
+      filename: 'character.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: path.resolve('./src/episode.html'),
+      filename: 'episode.html'
     }),
     new MiniCssExtractPlugin({
         filename: '[name].css',

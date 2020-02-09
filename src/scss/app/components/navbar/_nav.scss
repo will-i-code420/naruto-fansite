@@ -1,8 +1,13 @@
 .top-navbar {
 
   .navbar-brand {
-    font-size: 32px;
+    font-size: 34px;
     font-style: italic;
+    font-weight: bold;
+
+    img {
+      height: 50px;
+    }
   }
 
   .nav-item {

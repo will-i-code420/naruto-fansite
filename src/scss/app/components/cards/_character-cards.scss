@@ -1,4 +1,4 @@
-#contact-cards {
+#character-cards {
 
   .card {
     box-shadow:
@@ -13,6 +13,7 @@
   }
 
   .background-img {
+    height: 250px;
     clip-path: polygon(50% 0%, 100% 0, 100% 100%, 50% 79%, 0 100%, 0 100%, 0 0);
   }
 

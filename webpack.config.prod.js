@@ -44,8 +44,12 @@ module.exports = {
       filename: 'about.[contenthash].html'
     }),
     new HtmlWebpackPlugin({
-      template: path.resolve('./src/contact.html'),
-      filename: 'contact.[contenthash].html'
+      template: path.resolve('./src/character.html'),
+      filename: 'character.[contenthash].html'
+    }),
+    new HtmlWebpackPlugin({
+      template: path.resolve('./src/episode.html'),
+      filename: 'episode.[contenthash].html'
     }),
     new MiniCssExtractPlugin({
       filename: 'style.[contenthash].css'

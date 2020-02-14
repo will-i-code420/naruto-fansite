@@ -3,11 +3,43 @@
   .series-selection-btns {
 
     button {
-      margin: 0 10px;
+      margin: 10px;
     }
     span {
       font-weight: bold;
       font-size: 20px;
     }
   }
+
+  .season {
+    opacity: 0;
+    transition: opacity 500ms ease-in;
+
+    button {
+      margin: 10px;
+    }
+  }
+
+  .active-series {
+    opacity: 1;
+    pointer-events: all !important;
+  }
+
+  .naruto-season-selection,
+  .shippuuden-season-selection,
+  .boruto-season-selection {
+    position: absolute;
+    pointer-events: none;
+  }
+
+  .season-table {
+    opacity: 0;
+    transition: opacity 500ms ease-in;
+  }
+
+  .active-season-table {
+    opacity: 1;
+    transition: opacity 500ms ease-out;
+  }
+
 }

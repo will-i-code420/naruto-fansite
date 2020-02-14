@@ -1,0 +1,19 @@
+<nav aria-label="Season Episode Pages">
+  <ul class="pagination justify-content-center">
+    <li class="page-item">
+      <button class="page-link" aria-label="First Page" value="first">
+        &laquo;
+      </button>
+    </li>
+    <li class="page-item"><button class="page-link" aria-label="Previous Page" value="prev">Previous</button></li>
+    {{#each this}}
+    <li class="page-item"><button class="page-link" value="{{page}}">{{page}}</button></li>
+    {{/each}}
+    <li class="page-item"><button class="page-link" aria-label="Next Page" value="next">Next</button></li>
+    <li class="page-item">
+      <button class="page-link" aria-label="Last Page" value="last">
+        &raquo;
+      </button>
+    </li>
+  </ul>
+</nav>

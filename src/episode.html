@@ -41,42 +41,102 @@
 
     <main class="pt-5">
 
-      <section id="episode-table" class="pt-5 table-responsive-md container text-center">
+      <section id="episode-table" class="pt-5 container text-center">
         <h2>Episode List</h2>
         <div class="row pt-4">
           <div class="col-md-4 series-selection-btns">
             <h3 class="pb-3">Select A Series</h3>
-            <button class="btn btn-primary" value="naruto">
+            <button class="btn btn-primary series-btn" value="naruto">
               Naruto
             </button>
-            <button class="btn btn-primary" value="shippuuden">
+            <button class="btn btn-primary series-btn" value="shippuuden">
               Shippuuden
             </button>
-            <button class="btn btn-primary" value="boruto">
+            <button class="btn btn-primary series-btn" value="boruto">
               Boruto
             </button>
-          </div>
-          <div class="col-md-6 offset-2">
-              <table>
-                <thead>
-                  <tr>
-                    <td>#</td>
-                    <td>Title</td>
-                    <td>Air Date</td>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>1</td>
-                    <td>Hello</td>
-                    <td>1/1/11</td>
-                  </tr>
-                </tbody>
-              </table>
-              <div class="table-pagination">
-
+            <div id="naruto" class="season naruto-season-selection pt-3 active-series">
+              <h3>Naruto Seasons</h3>
+              <div class="season-btns">
+                <button class="btn btn-primary season-btn" value="Season 1">
+                  Season 1
+                </button>
+                <button class="btn btn-primary season-btn" value="Season 2">
+                  Season 2
+                </button>
+                <button class="btn btn-primary season-btn" value="Season 3">
+                  Season 3
+                </button>
+                <button class="btn btn-primary season-btn" value="Season 4">
+                  Season 4
+                </button>
+                <button class="btn btn-primary season-btn" value="Season 5">
+                  Season 5
+                </button>
+                <button class="btn btn-primary season-btn" value="Season 6">
+                  Season 6
+                </button>
+                <button class="btn btn-primary season-btn" value="Season 7">
+                  Season 7
+                </button>
+                <button class="btn btn-primary season-btn" value="Season 8">
+                  Season 8
+                </button>
+                <button class="btn btn-primary season-btn" value="Season 9">
+                  Season 9
+                </button>
+                <button class="btn btn-primary season-btn" value="Movies">
+                  Movies
+                </button>
               </div>
             </div>
+            <div id="shippuuden" class="season shippuuden-season-selection pt-3">
+              <h3>Shippuuden Seasons</h3>
+              <div class="season-btns">
+                <button class="btn btn-primary season-btn" value="Season 1">Season 1</button>
+                <button class="btn btn-primary season-btn" value="Season 2">Season 2</button>
+                <button class="btn btn-primary season-btn" value="Season 3">Season 3</button>
+                <button class="btn btn-primary season-btn" value="Season 4">Season 4</button>
+                <button class="btn btn-primary season-btn" value="Season 5">Season 5</button>
+                <button class="btn btn-primary season-btn" value="Season 6">Season 6</button>
+                <button class="btn btn-primary season-btn" value="Season 7">Season 7</button>
+                <button class="btn btn-primary season-btn" value="Season 8">Season 8</button>
+                <button class="btn btn-primary season-btn" value="Season 9">Season 9</button>
+                <button class="btn btn-primary season-btn" value="Season 10">Season 10</button>
+                <button class="btn btn-primary season-btn" value="Season 11">Season 11</button>
+                <button class="btn btn-primary season-btn" value="Season 12">Season 12</button>
+                <button class="btn btn-primary season-btn" value="Season 13">Season 13</button>
+                <button class="btn btn-primary season-btn" value="Season 14">Season 14</button>
+                <button class="btn btn-primary season-btn" value="Season 15">Season 15</button>
+                <button class="btn btn-primary season-btn" value="Season 16">Season 16</button>
+                <button class="btn btn-primary season-btn" value="Season 17">Season 17</button>
+                <button class="btn btn-primary season-btn" value="Season 18">Season 18</button>
+                <button class="btn btn-primary season-btn" value="Season 19">Season 19</button>
+                <button class="btn btn-primary season-btn" value="Season 20">Season 20</button>
+                <button class="btn btn-primary season-btn" value="Season 21">Season 21</button>
+                <button class="btn btn-primary season-btn" value="Movies">Movies</button>
+              </div>
+            </div>
+            <div id="boruto" class="season boruto-season-selection pt-3">
+              <h3>Boruto Seasons</h3>
+              <div class="season-btns">
+                <button class="btn btn-primary season-btn" value="Season 1">Season 1</button>
+                <button class="btn btn-primary season-btn" value="Season 2">Season 2</button>
+                <button class="btn btn-primary season-btn" value="Season 3">Season 3</button>
+                <button class="btn btn-primary season-btn" value="Season 4">Season 4</button>
+                <button class="btn btn-primary season-btn" value="Movies">Movies</button>
+              </div>
+            </div>
+          </div>
+          <div id="season-table-container" class="col-md-6 offset-2 season-table-container">
+            <div id="season-table" class="season-table">
+
+            </div>
+            <div id="season-table-pagination">
+
+            </div>
+          </div>
+
         </div>
       </section>
     </main>

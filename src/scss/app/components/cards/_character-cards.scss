@@ -24,37 +24,5 @@
     z-index: 100;
   }
 
-  .social-links {
-    list-style: none;
-
-    a {
-      font-size: 34px;
-    }
-
-    .fa-facebook-square {
-      transition: color 400ms;
-
-      &:hover {
-        color: lighten($blue, 20%);
-      }
-    }
-
-    .fa-twitter-square {
-      color: lighten($blue, 20%);
-      transition: color 400ms;
-
-      &:hover {
-        color: lighten($blue, 30%);
-      }
-    }
-    .fa-instagram {
-      color: #833ab4;
-      transition: color 400ms;
-
-      &:hover {
-        color: #c13584;
-      }
-    }
-  }
 
 }

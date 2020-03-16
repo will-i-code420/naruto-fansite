@@ -51,6 +51,10 @@ module.exports = {
       template: path.resolve('./src/episode.html'),
       filename: 'episode.[contenthash].html'
     }),
+    new HtmlWebpackPlugin({
+      template: path.resolve('./src/jutsu.html'),
+      filename: 'jutsu.[contenthash].html'
+    }),
     new MiniCssExtractPlugin({
       filename: 'style.[contenthash].css'
       }),
